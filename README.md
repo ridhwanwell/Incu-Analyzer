@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -225,18 +224,11 @@
             animation: fadeIn 0.5s ease-out;
         }
     </style>
-</head>
-<body>
-    <h1 class="title">INCU ANALYZER</h1>
     
     <div id="mqttStatus" class="mqtt-status disconnected">
         MQTT Status: Disconnected
     </div>
-
-    <div class="broker-info">
-        Broker: broker.hivemq.com:8000 | Topic: incu/sensors
-    </div>
-
+    
     <div class="control-buttons">
         <button id="saveBtn" class="control-btn">Play Saving Data</button>
         <button id="resetBtn" class="control-btn">Reset Data</button>
